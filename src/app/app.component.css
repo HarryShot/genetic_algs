@@ -1,0 +1,41 @@
+:host{
+  background: red;
+}
+
+.table-columns__data{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.table-columns__header{
+    border: 1px solid black;
+    font-weight: bold;
+  }
+
+table {
+  border-spacing: 0;
+  border-collapse: separate;
+  border: 1px solid black;
+}
+
+table tr {
+  background-color: #E0E0E0;
+}
+
+table tr:nth-child(even) {
+  background-color: #F1F1F1;
+}
+
+table tr:first-child th {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  padding: 10px 16px;
+  background: grey;
+}
+
+.static td {
+  min-width: 100px;
+}
